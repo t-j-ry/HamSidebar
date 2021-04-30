@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="./Hamburger-Sidebar.css" rel="stylesheet">
+    <title>Responsive-Navbar</title>
+</head>
+<body class="min-h-screen flex m-0 gap-2 font-serif">
+    <nav class="flex flex-col justify-between shadow-lg rounded-r-lg">
+        <div class="flex justify-between">
+            <h2 class="py-3 pl-4">Coding Addict</h2><a id="close-btn" class="pr-4" href="#"><i class="bi bi-x-square"></i></a>
+        </div>
+        <ul class="leading-10 mb-24">
+            <li class="hover:bg-red-200 hover:shadow-inner"><a class="inline-block w-full pl-4" href="#">HOME</a></li>
+            <li class="hover:bg-red-200 hover:shadow-inner"><a class="inline-block w-full pl-4" href="#">ABOUT</a></li>
+            <li class="hover:bg-red-200 hover:shadow-inner"><a class="inline-block w-full pl-4" href="#">PROJECTS</a></li>
+            <li class="hover:bg-red-200 hover:shadow-inner"><a class="inline-block w-full pl-4" href="#">CONTACT</a></li>
+        </ul>
+        <ul class="flex justify-center gap-8 mb-8">
+            <li class="facebook"><i class="bi bi-facebook"></i></li>
+            <li class="twitter"><i class="bi bi-twitter"></i></li>
+            <li class="linkedin"><i class="bi bi-linkedin"></i></li>
+        </ul>
+    </nav>
+    <div id="col-2" class="flex flex-col">
+        <header class="flex items-center">
+            <div id="open-btn" class="border-r border-gray-300 border-solid">
+                <a class="pr-4" href="#"><i class="bi bi-list"></i></a>
+            </div>
+            <div class="p-4">
+                <h1>LOGO</h1>
+            </div>
+        </header>
+        <main class="flex">
+            <article class="mx-12 text-lg leading-8">
+                <h2 class="pb-4">Lorem ipsum dolor</h2> 
+                <p class="border-b border-gray-300 border-solid my-8 py-8">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                </p>
+                <p class="border-b border-gray-300 border-solid my-8 py-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                </p>
+                <p class="border-b border-gray-300 border-solid my-8 py-8"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut doloremque eos cupiditate inventore totam quod repellendus eius? Nisi, facilis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores odio voluptas dolorum minus in exercitationem, deserunt nobis laboriosam aut
+                </p>  
+            </article>
+            <aside>Aside</aside>
+        </main>
+        <footer>Footer</footer>
+    </div>
+    <script src="./Hamburger-Sidebar.js"></script>
+</body>
+</html>

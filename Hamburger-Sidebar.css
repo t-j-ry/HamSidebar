@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box; 
+  }
+  nav {
+    background: #D7E8D4;
+    flex: 2;
+    max-height: 99vh;
+    position: sticky;
+    top: 0;
+  }
+
+  #col-2 {
+    flex: 5;
+  }
+  article {
+    flex: 3;
+    min-height: 80vh;
+  }
+
+  article > h2 {
+      font-size: x-large;
+  }
+  aside {
+    background: beige;
+    flex: 1;
+  }
+
+  .leftAside {
+    background: none;
+    flex: .5;
+  }
+
+
+  header {
+      height: 75px;
+      border: black solid 1px;
+  }
+
+  footer {
+    height: calc(20vh - 75px);
+    border: black solid 1px;
+  }
+  header, footer, article, aside, .leftAsisde {
+    padding: 1em;
+  }
+
+  #close-btn {
+      font-size:xx-large
+  }
+
+  #open-btn {
+    font-size: xx-large;
+  }
